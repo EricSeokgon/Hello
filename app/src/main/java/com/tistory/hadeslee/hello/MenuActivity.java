@@ -15,5 +15,6 @@ public class MenuActivity extends AppCompatActivity {
 
     public void onBackButtonClicked(View v) {
         Toast.makeText(getApplicationContext(),"돌아가기 버튼을 눌렀어요",Toast.LENGTH_LONG).show();
+        finish();
     }
 }
